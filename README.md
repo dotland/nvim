@@ -104,6 +104,11 @@ cd ./nerd-fonts
 
 Or just untar [mono.tar.gz](https://drive.google.com/file/d/1j31VMUUAZSb4dp80lxsKiV0m27e2E0qR/view?usp=share_link) archived file to the ~/.fonts directory.
 
+Also install [powerline fonts](https://github.com/powerline/fonts) by
+```shell
+sudo apt-get install fonts-powerline
+```
+
 To configure nvim font, change the terminal font preferences.
 
 To change Neovim GUI font see the [ginit.vim](./ginit.vim) file.
