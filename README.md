@@ -8,62 +8,62 @@ For more information on Neovim see the [Introduction](https://github.com/neovim/
 
 - Ubuntu
 ```shell
-$ sudo apt install neovim
+sudo apt install neovim
 ```
 
 - Debian
 ```shell
-$ sudo apt-get install neovim
+sudo apt-get install neovim
 ```
 
 - Fedora
 ```shell
-$ sudo dnf install neovim
+sudo dnf install neovim
 ```
 
 - OpenSUSE
 ```shell
-$ sudo zypper install neovim
+sudo zypper install neovim
 ```
 
 - Arch Linux
 ```shell
-$ sudo pacman -S neovim
+sudo pacman -S neovim
 ```
 
 ### Pre set up
 
 Install nodejs and yarn
 ```shell
-$ curl -k -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
-$ sudo bash nodesource_setup.sh
-$ sudo apt-get install -y nodejs
-$ sudo npm install -g yarn
-$ rm -f nodesource_setup.sh
+curl -k -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
+sudo apt-get install -y nodejs
+sudo npm install -g yarn
+rm -f nodesource_setup.sh
 ```
 
 For python autocompletion
 ```shell
-$ sudo apt install python3 python3-pip
-$ sudo pip install jedi
+sudo apt install python3 python3-pip
+sudo pip install jedi
 ```
 
 For tagbar support
 ```shell
-$ sudo apt install exuberant-ctags
+sudo apt install exuberant-ctags
 ```
 
 ### Set up
 
 1. Clone this repo
     ```shell
-    $ cd $HOME/.config
-    $ git clone https://github.com/dotland/nvim.git
+    cd $HOME/.config
+    git clone https://github.com/dotland/nvim.git
     ```
 
 2. Install the [Vim plugin manager](https://github.com/junegunn/vim-plug)
     ```shell
-    $ wget --no-check-certificate -P $HOME/.local/share/nvim/site/autoload \
+    wget --no-check-certificate -P $HOME/.local/share/nvim/site/autoload \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     ```
 
@@ -71,9 +71,9 @@ $ sudo apt install exuberant-ctags
 
 4. Install [Conquer of Completion](https://github.com/neoclide/coc.nvim) for autocomplete.
     ```shell
-    $ cd $HOME/.local/share/nvim/plugged/coc.nvim
-    $ yarn install
-    $ yarn build
+    cd $HOME/.local/share/nvim/plugged/coc.nvim
+    yarn install
+    yarn build
     ```
 5. Open nvim and add some autocompletion support.
     ```vim
@@ -87,8 +87,8 @@ To set up nvim for the root, switch user by `sudo su` and repeat the previous st
 ### Post set up
 
 ```shell
-$ yarn global add neovim
-$ pip install --user neovim
+yarn global add neovim
+pip install --user neovim
 ```
 
 Open nvim and type `:checkhealth` to see if neovim is healthy.
@@ -97,10 +97,10 @@ Open nvim and type `:checkhealth` to see if neovim is healthy.
 
 Install Nerd Fonts
 ```bash
-$ cd ~/Downloads
-$ git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
-$ cd ./nerd-fonts
-$ ./install.sh FiraCode FiraMono Hack Hermit Inconsolata JetBrainsMono SourceCodePro Ubuntu UbuntuMono
+cd ~/Downloads
+git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
+cd ./nerd-fonts
+./install.sh FiraCode FiraMono Hack Hermit Inconsolata JetBrainsMono SourceCodePro Ubuntu UbuntuMono
 ```
 
 To configure nvim font, change the terminal font preferences.
