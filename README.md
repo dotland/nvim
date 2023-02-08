@@ -35,8 +35,7 @@ sudo pacman -S neovim
 
 Install nodejs and yarn
 ```shell
-curl -k -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
-sudo bash nodesource_setup.sh
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo npm install -g yarn
 rm -f nodesource_setup.sh
