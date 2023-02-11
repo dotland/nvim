@@ -113,7 +113,7 @@ To configure nvim font, change the terminal font preferences.
 
 To change Neovim GUI font see the [ginit.vim](./ginit.vim) file.
 
-See also [A Basic Stable IDE config for Neovim](https://github.com/LunarVim/nvim-basic-ide).
+See also [LunarVim](https://www.lunarvim.org/docs/installation).
 
 ## GUI
 
